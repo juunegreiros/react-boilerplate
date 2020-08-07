@@ -1,68 +1,67 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esse projeto foi feito com [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Esse boilerplate foi feito pensando nos meus projetos e em como iniciar vários projetos de forma padronizada.
 
-In the project directory, you can run:
+## O que tem nesse boilerplate?
 
-### `yarn start`
+### Eslint
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Prettier
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### EditorConfig
 
-### `yarn test`
+### Styled Components
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prop-types
 
-### `yarn build`
+### React-router-dom
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Como rodar o projeto?
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Para instalar o projeto, use:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```cmd
+  yarn install
+```
 
-### `yarn eject`
+ou
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```cmd
+  npm install
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+E, depois, para inicializar o projeto, use:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```cmd
+  yarn start
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+ou
 
-## Learn More
+```cmd
+  npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Para testar sua aplicação, rode :
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```cmd
+  yarn teste
+```
 
-### Code Splitting
+ou
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+```cmd
+  npm test
+```
 
-### Analyzing the Bundle Size
+E, por fim, para buildar sua aplicação para produção, use:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+```cmd
+  yarn build
+```
 
-### Making a Progressive Web App
+ou
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+```cmd
+  npm build
+```
